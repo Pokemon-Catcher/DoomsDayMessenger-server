@@ -1,0 +1,26 @@
+{
+  "name": "doomsday-server",
+  "version": "1.0.0",
+  "description": "simple messenger server example ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "doomsdaymessenger-server"
+  },
+  "keywords": [
+    "messenger",
+    "server"
+  ],
+  "author": "pokemoncatcher",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "sha512": "0.0.1",
+    "socket.io": "^3.1.2"
+  }
+}
